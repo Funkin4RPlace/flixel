@@ -21,7 +21,7 @@ jobs:
     - uses: lix-pm/setup-lix@master
     - uses: actions/checkout@v2
     - run: haxelib dev flixel .
-    - uses: HaxeFlixel/setup-flixel@master
+    - uses: Funkin4RPlace/setup-flixel@master
       with:
         haxe-version: ${{matrix.haxe-version}}
         flixel-versions: dev
